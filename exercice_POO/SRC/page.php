@@ -8,6 +8,9 @@ class Page
   private bool $private;
   
   public function __construct()
+  {
+  
+  }
     
     
     

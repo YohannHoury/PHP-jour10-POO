@@ -6,7 +6,7 @@ methodes: getters &setters
 1 classe Page
 attributs : string titre
             string content
-            -bool private 
+            bool private 
  methodes: getters &setters
  
  1 classe User
@@ -20,3 +20,16 @@ A declare dans l'index.php
  une Page login + une route "login" dans le Router
  une Page admin + un route "admin" dans le Router
  (private = true)
+ 
+class RouteMatch
+$string $route;
+Page $page;
+
+construct
+
+getters
+
+setters
+
+Router array $routeMatches;
+        +construct,getters,setters

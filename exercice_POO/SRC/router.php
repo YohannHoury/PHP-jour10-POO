@@ -3,7 +3,7 @@ class Router
     {
     private array $routes = ["home","login","admin"];
     
-    private array $Page = ["home","login","admin"];
+    private array $Page = ["homepage","login","admin"];
     
     public function __construct(string $Page)
     {
